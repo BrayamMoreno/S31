@@ -1,0 +1,11 @@
+C:\Users\Brayan\Desktop\S31\S31\obj\Release\net6.0\PubTmp\Out\S31.exe
+C:\Users\Brayan\Desktop\S31\S31\obj\Release\net6.0\PubTmp\Out\web.config
+C:\Users\Brayan\Desktop\S31\S31\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Brayan\Desktop\S31\S31\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Brayan\Desktop\S31\S31\obj\Release\net6.0\PubTmp\Out\S31.dll
+C:\Users\Brayan\Desktop\S31\S31\obj\Release\net6.0\PubTmp\Out\S31.deps.json
+C:\Users\Brayan\Desktop\S31\S31\obj\Release\net6.0\PubTmp\Out\S31.runtimeconfig.json
+C:\Users\Brayan\Desktop\S31\S31\obj\Release\net6.0\PubTmp\Out\S31.pdb
+C:\Users\Brayan\Desktop\S31\S31\obj\Release\net6.0\PubTmp\Out\AWSSDK.Core.dll
+C:\Users\Brayan\Desktop\S31\S31\obj\Release\net6.0\PubTmp\Out\AWSSDK.Extensions.NETCore.Setup.dll
+C:\Users\Brayan\Desktop\S31\S31\obj\Release\net6.0\PubTmp\Out\AWSSDK.S3.dll

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "qnsGHkCupGIv3DgyzCXsXIzrmBpNan8mhhxjA5/PrQSeWiiDtV9LiQ0qRW51Dmclf1PuPrHbAy9hKw7S0nwTgw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Brayan\\Desktop\\S31\\S31\\S31.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Brayan\\.nuget\\packages\\awssdk.core\\3.7.105.7\\awssdk.core.3.7.105.7.nupkg.sha512",
+    "C:\\Users\\Brayan\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.4\\awssdk.extensions.netcore.setup.3.7.4.nupkg.sha512",
+    "C:\\Users\\Brayan\\.nuget\\packages\\awssdk.s3\\3.7.103.14\\awssdk.s3.3.7.103.14.nupkg.sha512",
+    "C:\\Users\\Brayan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.0.0\\microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\Brayan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\Brayan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\Brayan\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\Brayan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

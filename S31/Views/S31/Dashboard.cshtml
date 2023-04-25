@@ -1,0 +1,62 @@
+﻿@using S31.Models
+@model List<S3Modelo>
+
+
+<html lang="es">
+
+<head>
+	<title>Procalculo Prosis</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+</head>
+<body>
+
+	<header>
+		<div class="alert alert-info">
+			<h3>Procalculo - Descargar de Imagen</h3>
+		</div>
+	</header>
+
+	<div class="container">
+		<table class="table">
+			<thead class="bg-primary text-white">
+				<tr>
+					<th scope="col">Archivo</th>
+					<th scope="col">Origen</th>
+					<th scope="col">Fecha</th>
+					<th scope="col">Tamaño</th>
+					<th scope="col">Descargar</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				@foreach (var s3Object in Model)
+				{
+					<tr>
+						<td>@s3Object.Key</td>
+						<td>Bucket S3 - AWS</td>
+						<td>@s3Object.LastModified</td>
+						<td>@s3Object.Size</td>
+						<td>
+							<a class="fas fa-download" asp-action="Download" asp-route-key="@s3Object.Key">Descargar</a>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+		<form class="form-inline" method="post" id="uploadFile" enctype="multipart/form-data">
+			<div class="form-group">
+				<input type="file" class="form-control" name="file" id="file">
+			</div>
+			<button type="submit" class="btn btn-primary">Cargar</button>
+		</form>
+	</div>
+
+	<div id="Id"></div>
+</body>
+
+</html>
+
